@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Outputs: 
+  BucketName: 
+    Description: Name of the sample AWS S3 bucket
+    Value: "S3Bucketkk23"
+Resources: 
+  S3Bucket: 
+    Type: AWS::S3::Bucket
